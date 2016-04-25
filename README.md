@@ -1,4 +1,5 @@
-# AppPermissionsScan (App 권한 조회 Android Native App)
+# AppPermissionsScan 
+(App 권한 조회 Android Native App)
 ---------------------------------------------------------------
 
 Android Programming Study
