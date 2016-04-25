@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/contents_margin" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_height"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/ll_tab1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/tab_bg"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/lTab1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:paddingBottom="5dip" >
+
+                <TextView
+                    android:id="@+id/tv_tab1"
+                    style="@style/black_font_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_download"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v_line_tab1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab_line_height"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@color/tab_enable1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll_tab2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/tab_bg"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/lTab2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:paddingBottom="5dip" >
+
+                <TextView
+                    android:id="@+id/tv_tab2"
+                    style="@style/black_font_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_system"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v_line_tab2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab_line_height"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@color/tab_disable" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll_tab3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/tab_bg"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/lTab3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:paddingBottom="5dip" >
+
+                <TextView
+                    android:id="@+id/tv_tab3"
+                    style="@style/black_font_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_permission"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v_line_tab3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab_line_height"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@color/tab_disable" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/permission_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/common_table_line"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/table_row_height"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/textbox_horizontal_margin"
+                android:paddingRight="@dimen/textbox_horizontal_margin"
+                android:paddingTop="@dimen/textbox_horizontal_margin" >
+
+                <Spinner
+                    android:id="@+id/app_permission"
+                    style="@style/edittext_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/textbox_height"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/spinner" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/textbox_horizontal_margin"
+                android:paddingRight="@dimen/textbox_horizontal_margin" >
+
+                <TextView
+                    android:id="@+id/permission_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/app_permission_prompt"
+                    android:textColor="@color/gray" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <kr.pe.devsunset.aps.CustomViewPager
+        android:id="@+id/vp_appcontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

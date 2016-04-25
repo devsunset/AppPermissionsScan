@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">App Security Scan</string>
+    <string name="loading">Loading</string>
+    <string name="app_download">Download</string>
+    <string name="app_system">System</string>
+    <string name="app_permission">Permission</string>
+    <string name="packagelabel">Package</string>
+    <string name="scan">Scan</string>
+    <string name="install">Install</string>
+    <string name="update">Update</string>
+    <string name="access_denied">Access denied</string>
+    <string name="common_info_title">Permission List</string>
+    <string name="common_ok">Ok</string>
+    <string name="main_back_finish">Press the back key again to close the app.</string>
+    <string name="main_desc">App permission scan.</string>
+    <string name="app_permission_prompt">Select Permission</string>
+    <string name="danger_permission">\n - The permission to use a lot of malicious apps.</string>
+    <string name="risk_permission"> (risk permission)</string>
+    <string name="app_define_permission">user define permission</string>
+    <string name="alert_info_title">Notice</string>
+    <string name="processing">Processing... Please wait.</string>
+
+</resources>
