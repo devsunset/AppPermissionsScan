@@ -1,4 +1,4 @@
-# AppPermissionsScan 
+# App Security Scan
 (App 권한 조회 Android Native App)
 ---------------------------------------------------------------
 
