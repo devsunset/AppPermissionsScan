@@ -1,4 +1,4 @@
-# App Security Scan (Android Native App)
+# AppPermissionsScan (Android Native App)
 
 # Google Store Link
 https://play.google.com/store/apps/details?id=kr.pe.devsunset.aps&hl=en
