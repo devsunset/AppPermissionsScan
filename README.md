@@ -1,6 +1,4 @@
-# App Security Scan
-(App 권한 조회 Android Native App)
----------------------------------------------------------------
+# App Security Scan (Android Native App)
 
 # Google Store Link
 https://play.google.com/store/apps/details?id=kr.pe.devsunset.aps&hl=en
