@@ -5,4 +5,4 @@ https://play.google.com/store/apps/details?id=kr.pe.devsunset.aps&hl=en
 https://play.google.com/store/apps/details?id=kr.pe.devsunset.aps
 
 # One Store Link
-http://www.tstore.co.kr/userpoc/apps/view?pid=0000680733
+https://m.onestore.co.kr/mobilepoc/apps/appsDetail.omp?prodId=0000680733
